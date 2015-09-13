@@ -34,6 +34,9 @@ set autoindent
 set smartindent
 set smarttab
 
+" Activate indent/*.vim
+filetype plugin indent on
+
 set list listchars=tab:\ \ ,trail:· " Display tab + trailing spaces
 
 set nowrap
