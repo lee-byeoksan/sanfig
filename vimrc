@@ -62,3 +62,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Autocommands
+
+" cscope
+if filereadable("./cscope.out")
+    cs add cscope.out
+endif
