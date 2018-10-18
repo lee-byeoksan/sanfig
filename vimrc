@@ -19,6 +19,12 @@ if expand('%:t') != "Makefile"
     set expandtab
 endif
 
+" Indent Configuration
+set ai
+set si
+set ci
+set cinoptions=(1s
+
 " Search Configuration
 set hls
 set incsearch
@@ -67,3 +73,5 @@ nnoremap <C-l> <C-w>l
 if filereadable("./cscope.out")
     cs add cscope.out
 endif
+
+set mouse=
