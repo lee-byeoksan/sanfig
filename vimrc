@@ -1,4 +1,5 @@
 set nocompatible
+set modelines=2
 set encoding=utf-8
 
 " General Configuration
@@ -75,3 +76,9 @@ if filereadable("./cscope.out")
 endif
 
 set mouse=
+set cursorline
+
+" Filetype-based settings
+autocmd FileType erlang setlocal sw=2 ts=2 sts=2
+autocmd FileType yaml setlocal sw=2 ts=2 sts=2
+autocmd FileType lua setlocal sw=2 ts=2 sts=2
