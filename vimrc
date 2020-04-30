@@ -2,6 +2,12 @@ set nocompatible
 set modelines=2
 set encoding=utf-8
 
+" vim-plug
+call plug#begin('~/.vim/plugged')
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
+call plug#end()
+
 " General Configuration
 syntax on
 set background=dark
