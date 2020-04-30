@@ -6,6 +6,7 @@ set encoding=utf-8
 call plug#begin('~/.vim/plugged')
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " General Configuration

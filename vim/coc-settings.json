@@ -1,0 +1,23 @@
+{
+    "languageserver": {
+        "haskell": {
+            "command": "stack",
+            "args": ["exec", "hie-core", "--", "--lsp"],
+            "rootPatterns": [
+                "*.cabal",
+                "stack.yaml",
+                "cabal.project",
+                "package.yaml"
+            ],
+            "filetypes": [
+                "hs",
+                "lhs",
+                "haskell"
+            ],
+            "initializationOptions": {
+                "languageServerHaskell": {
+                }
+            }
+        }
+    }
+}
