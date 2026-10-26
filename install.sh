@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
-ln -s ~/.sanfig/vim ~/.vim
-ln -s ~/.sanfig/vimrc ~/.vimrc
-ln -s ~/.sanfig/tmux.conf ~/.tmux.conf
+ln -s ~/.rc/vim/links/.vim ~/.vim
+ln -s ~/.rc/vim/links/.vimrc ~/.vimrc
+ln -s ~/.rc/tmux/links/.tmux.conf ~/.tmux.conf
+ln -s ~/.rc/bash/links/.bashrc ~/.bashrc
+ln -s ~/.rc/bash/links/.bash_profile ~/.bash_profile
